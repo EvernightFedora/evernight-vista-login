@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Evernight Vista
+Description=Evernight Vista Login Default theme
+Author=Eliver Lara & Evernight Vista Team
+Copyright=(c) 2025, Eliver Lara & (c) 2026, Evernight Vista Team
+License=GPL 3+
+Type=sddm-theme
+Version=43
+Website=https://github.com/EvernightFedora
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=13278297951@sina.cn
+Theme-Id=evernight-vista
+QtVersion=6
