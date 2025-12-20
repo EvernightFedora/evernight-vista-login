@@ -4,12 +4,12 @@ import QtQuick.Controls 2.4
 
 TextField {
     placeholderTextColor: config.color
-    color: config.color
+    color: "#000000"
     font.pointSize: config.fontSize
     font.family: config.font
     width: parent.width
     background: Rectangle {
-        color: "#CF90A1"
+        color: "#FFFFFF"
         radius: 10
         width: parent.width
         height: parent.height
@@ -28,8 +28,8 @@ TextField {
 
         gradient: Gradient {
             orientation: Gradient.Horizontal
-            GradientStop { position: 0.0; color: "#4E27A9" }
-            GradientStop { position: 1.0; color: "#4E27A9" }
+            GradientStop { position: 0.0; color: "#00FFFF" }
+            GradientStop { position: 1.0; color: "#00FFFF" }
         }
     }
 

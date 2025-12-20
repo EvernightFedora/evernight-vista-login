@@ -144,7 +144,7 @@ Item {
             verticalOffset: 0
             radius: 70
             samples: 100
-            color: "#4E27A9"
+            color: "#000000"
             source: userImage
         }
 
@@ -154,7 +154,7 @@ Item {
             verticalOffset: 0
             radius: 100
             samples: 100
-            color: "#4E27A9"
+            color: "#000000"
             source: userImage
             z: -1
         }
@@ -167,7 +167,7 @@ Item {
             
             anchors.verticalCenterOffset: userImage.height + userList.height
             text: userListCurrentModelData.realName || userListCurrentModelData.name
-            color: "#00C7FD"
+            color: "#00FFFF"
             style: softwareRendering ? Text.Outline : Text.Normal
             styleColor: softwareRendering ? ColorScope.backgroundColor : "transparent" //no outline, doesn't matter
             font.pointSize: userListCurrentModelData.realName ? 20 : 14
@@ -298,8 +298,8 @@ Item {
                         radius: 10
                         anchors.fill: parent
                         gradient: Gradient {
-                            GradientStop { position: 0.0; color: "#CF90A1" }
-                            GradientStop { position: 1.0; color: "#CF90A1" }
+                            GradientStop { position: 0.0; color: "#FFFFFF" }
+                            GradientStop { position: 1.0; color: "#FFFFFF" }
                             orientation: Gradient.Horizontal
                         }
                     }

@@ -62,7 +62,7 @@ Item {
         width: imageSource.width + 4 // Subtract to prevent fringing
         height: width
         radius: width / 2
-        color: "#cf90a1"
+        color: "#00FFFF"
     }
     
     UserImage {
